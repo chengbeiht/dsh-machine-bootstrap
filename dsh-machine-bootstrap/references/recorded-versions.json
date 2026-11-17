@@ -1,0 +1,24 @@
+{
+  "capturedAt": "2026-11-17T22:50:00+08:00",
+  "capturedOn": "source machine (Windows, DSH Desktop)",
+  "dsh": {
+    "desktopVersion": "0.2.2-rc.1",
+    "profile": "desktop",
+    "profileDir": "%USERPROFILE%\\.dsh\\profiles\\desktop",
+    "bundledNode": "24.21.0",
+    "bundledPnpm": "11.28.5"
+  },
+  "plugins": [
+    { "name": "dshmarket", "version": "^1.73.20", "kind": "bundle" },
+    { "name": "dsh-cost-meter", "version": "1.9.72", "kind": "bundle" }
+  ],
+  "tools": {
+    "git": { "version": "2.56.1.windows.1", "source": "https://registry.npmmirror.com/-/binary/git-for-windows/v2.56.1.windows.1/MinGit-2.56.1-64-bit.zip", "form": "MinGit 便携版" },
+    "node": { "version": "24.21.0", "npm": "11.19.0", "source": "https://registry.npmmirror.com/-/binary/node/v24.21.0/node-v24.21.0-win-x64.zip" },
+    "gh": { "version": "2.104.0", "source": "https://ghfast.top/https://github.com/cli/cli/releases/download/v2.104.0/gh_2.104.0_windows_amd64.zip" }
+  },
+  "skill": {
+    "name": "dsh-machine-bootstrap",
+    "installPath": "%USERPROFILE%\\.dsh\\skills\\dsh-machine-bootstrap\\SKILL.md"
+  }
+}
